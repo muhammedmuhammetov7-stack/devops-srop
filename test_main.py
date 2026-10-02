@@ -1,9 +1,9 @@
-from main import add, multiply
+from main import calculate_average, get_result
 
 
-def test_add():
-    assert add(2, 3) == 5
+def test_calculate_average():
+    assert calculate_average([80, 90, 70]) == 80
 
 
-def test_multiply():
-    assert multiply(2, 3) == 6
+def test_get_result():
+    assert get_result(90) == "Отлично"
